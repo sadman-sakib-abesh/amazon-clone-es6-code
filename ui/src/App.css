@@ -1,0 +1,475 @@
+
+
+/*--------------------------------------Header style------------------------------------------------------*/
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    position: sticky;
+    top:0;
+    z-index: 1000;
+    background-color: #131921;
+}
+
+
+.header_logo{
+    margin:0 20px;
+    margin-top: 10px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.header_search{
+    display: flex;
+    flex:1;
+    align-items: center;
+    border-radius: 24px;
+    
+}
+
+
+.header_searchIn{
+    height: 12px;
+    padding: 10px;
+    border:none;
+    outline: 0px;
+    width: 100%;
+}
+
+.header_searchIcon{
+    
+    padding: 4px;
+    height: 12px ;
+    background-color: #cd9042;
+}
+
+
+.header_nav{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_direct{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.header_directinone{
+    font-size: 10px;
+    
+}
+.header_directintwo{
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.header_optionbasket{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header_basketcount{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.link{
+color: white;
+text-decoration: none;
+}
+
+
+
+
+
+
+/*--------------------------------------Home style------------------------------------------------------*/
+
+
+
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+}
+
+.home_row{
+    display: flex;
+    z-index: 1;
+    margin-left:5px;
+    margin-right: 5px;
+}
+
+.home_img{
+    width:100%;
+    height: 100%;
+   /* z-index: -1;
+    margin-bottom: -200px;
+    mask-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(250, 245, 245, 0.021));
+   */
+}
+
+.slide{
+    width:100%;
+    z-index: -1;
+    margin-bottom: -150px;
+    mask-image: linear-gradient(to bottom,rgba(15, 14, 14, 0.952),rgba(250, 245, 245, 0.021));
+     
+}
+
+.footer{
+    background-color: #131A22;
+    max-width: 100%;
+    color: rgb(127, 127, 128);
+   
+}
+.footer center{
+    color: rgb(214, 211, 211);
+}
+
+.footer_1{
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    font-size: 12px;
+}
+.footer_div{
+    display: flex;
+    flex-direction: column;
+   margin-left: 100px;
+   margin-top: 20px;
+}
+
+.footer_div b{
+    color: rgb(189, 188, 188);
+}
+
+
+
+
+
+/*----------------------------------------------Product style-----------------------------------------*/
+
+
+
+.product{
+background-color: white;
+z-index: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 10px;
+padding: 20px;
+width:100%;
+max-height: 400px;
+min-width: 100px;
+}
+
+
+.product img{
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+
+
+.product button{
+    
+    background-color: #f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: rgb(146, 77, 38);
+    color: black;
+}
+
+.product_info{
+    text-align:left;
+    
+}
+.product_ratings{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+/*-------------------------------------------------Checkout style----------------------------------------*/
+
+.checkout{
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+}
+
+
+.checkout_title{
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+
+.checkout_ad{
+    width:100% ;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/*----------------------------------------------Subtotal style-----------------------------------------*/
+
+.subtotal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 100px;
+    padding:20px;
+    background-color: #f3f3f3;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+}
+
+
+
+.subtotal_gift{
+    display: flex;
+    align-items: center;
+}
+
+.subtotal_gift input{
+    margin-right: 5px;
+}
+
+.subtotal button{
+    background-color: #f0c14b;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border:1px solid;
+    margin-top: 10px;
+color: black;
+    border-color: #664a24;
+}
+
+
+
+
+/*---------------------------------------------Checkout product style------------------------------------*/
+
+.checkoutproduct{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.checkoutproduct_info{
+    padding-left: 20px;
+}
+
+
+.checkoutproduct_info button{
+    padding-left: 20px;
+    background-color: #f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: rgb(146, 77, 38);
+    color: black;
+}
+
+
+
+.checkoutproduct_img{
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+
+
+.checkoutproduct_ratings{
+    display: flex;
+    
+}
+
+.checkoutproduct_title{
+    font-size: 17px;
+    font-weight: 800;
+}
+
+
+
+
+/*---------------------------------------------Signup style------------------------------------*/
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+
+.signup_logo{
+    object-fit: contain;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    
+}
+
+
+
+.signup_container{
+    width:300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border:1px solid lightgray;
+    padding: 20px;
+}
+
+
+
+.signup_container h1{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+.signup_container form h5{
+    margin-bottom: 5px;
+}
+
+
+.signup_container form input{
+    height:30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+    border:1px solid rgb(163, 163, 163);
+    border-radius: 3px;
+}
+
+
+.signup_container p{
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.signup_signin{
+    background-color: #f0c14b;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgb(109, 80, 26);
+    margin-top: 10px;
+}
+
+
+.signup_regester{
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    border:1px solid darkgrey;
+}
+
+
+
+
+/*----------------------------------------------Payment style-----------------------------------------*/
+
+.payment{
+    background-color: white;
+}
+
+.payment_container h1{
+text-align: center;
+padding: 10px;
+font-weight: 400;
+background-color: rgb(234,237,237);
+border-bottom: 1px solid lightgray;
+}
+
+.payment_container h1 a{ 
+    text-decoration: none;
+
+}
+
+.payment_section{
+    display: flex;
+    padding: 20px;
+    margin: 0 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.payment_title{
+    flex: 0.2;
+}
+
+.payment_address, .payment_items, .payment_details{
+    flex: 0.8;
+}
+
+
+
+/*----------------------------------------------Orders style-----------------------------------------*/
+
+.orders{
+    padding: 20px 80px;
+    margin: 50px;
+
+}
+
+.orders h1{
+    margin: 30px 0;
+}
+
+
+
+
+
+
+/*----------------------------------------------Order style-----------------------------------------*/
+
+.order{
+    padding: 40px;
+    margin: 20px 0;
+    border: 1px solid lightgray;
+    background-color: white;
+    position: relative;
+}
+
+.order_id{
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
+.order_total{
+    font-weight: 500;
+    text-align: right;
+}
